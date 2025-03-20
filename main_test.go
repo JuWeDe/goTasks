@@ -23,4 +23,4 @@ func TestTimeFromSeconds(t *testing.T) {
     if hours != 3 || minutes != 40 {
         t.Errorf("Ожидалось 3 часа 40 минут, получено %d часов %d минут", hours, minutes)
     }
-}
+}	
